@@ -36,3 +36,15 @@ However, now that we're all moved in, we're loving our new place and I'm excited
 Still, I'm super excited to be coding again! This is the main thing I want to learn this year!
 
 **Link to work:** Same old, same old -- https://snack.expo.io/@nic-os/number-your-days
+
+### Day 5: January 12th, 2018
+
+**Today's Progress**: I cleaned up the code in the app by getting rid of some things I added in the beginning but realized I didn't need. I added some Text to help me track whether the state was really being changed and when.
+
+**Thoughts:** I felt really good about cleaning up the code a bit. As a beginner, it can be scary deleting things cause you don't understand why it needed to be there in the first place, and you expect the whole app to crash. I'm encouraged that I'm starting to understand enough to know what I don't need. 
+
+However, I had to reach out to a friend to finally break through this wall with changing the state. I think I'm not understanding something about passing data between parent and child components. Right now I have the child component's onSubmitEditing prop just call a function that should update the user's age based on the input. The onChange function works fine and seems like a simple, shallow merge of the new state and old state. However, when I call setState for onSubmitEditing, it still re-renders the entire app and doesn't update the state at all. I'm really hoping my friend will help me break through this part because I'm sick of slogging through the same problem everyday.
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
+
