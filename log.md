@@ -47,4 +47,12 @@ However, I had to reach out to a friend to finally break through this wall with 
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days
 
+### Day 6: January 13th, 2018
 
+**Today's Progress**: Made two new simple React Native snacks on Expo to test how to better use a TextInput component.
+
+**Thoughts:** I'm still struggling with updating the state in my app. I've copied other examples almost to the letter (other than changing the names of the functions/variables) and it'll work just fine in the examples but not in my app. I created two new simplified apps that do nothing except update state through a TextInput component. I'm trying to simplify things as much as possible so I can understand the basics of what's happening and why it's not working in my main app. The good thing about this struggle is that I know I'm going to learn core principles of how and why things work; I won't just copy someone else's code and pretend I came up with it in my own app. I actually want to understand all this stuff, not just "make it work."
+
+Also, when creating the two simple snacks on Expo, I was able to write a lot of the code from memory. That's encouraging to me because I'm excited to know the syntax so well that I can focus all my attention on the actual logic of the app. Looking forward to tackling it again tomorrow.
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
