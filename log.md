@@ -56,3 +56,11 @@ However, I had to reach out to a friend to finally break through this wall with 
 Also, when creating the two simple snacks on Expo, I was able to write a lot of the code from memory. That's encouraging to me because I'm excited to know the syntax so well that I can focus all my attention on the actual logic of the app. Looking forward to tackling it again tomorrow.
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
+### Day 7: January 14th, 2018
+
+**Today's Progress**: I successfully updated the state!!! I got it to work after carefully comparing the syntax from several different examples of passing data between parent and child components. Now, whenever I enter the user's age in the TextInput component and click submit, the state containing the user's age updates and displays.
+
+**Thoughts:** Honestly, I still don't really understand how it works. I copy and pasted some code from an example (I know, but it was just a test to see if I was somehow doing something wrong that I wasn't noticing) and it worked. That really confused me because I thought I'd already meticulously copied the parts that were relevant to my app. I changed the function and variable names and so on but it just would not work for me. It kept re-rendering the component every time and not updating the state. I'm going to keep looking into it, but I'm happy it works now. Hopefully, now I can work backwards and try to figure out why it works now when it didn't before. I actually want to understand this stuff on a deep level; I don't just want to copy code.
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
