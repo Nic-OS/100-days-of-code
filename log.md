@@ -64,3 +64,13 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Thoughts:** Honestly, I still don't really understand how it works. I copy and pasted some code from an example (I know, but it was just a test to see if I was somehow doing something wrong that I wasn't noticing) and it worked. That really confused me because I thought I'd already meticulously copied the parts that were relevant to my app. I changed the function and variable names and so on but it just would not work for me. It kept re-rendering the component every time and not updating the state. I'm going to keep looking into it, but I'm happy it works now. Hopefully, now I can work backwards and try to figure out why it works now when it didn't before. I actually want to understand this stuff on a deep level; I don't just want to copy code.
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
+### Day 8: January 15th, 2018
+
+**Today's Progress**: I began playing with updating the state of a new input component, which is a Picker component, for another aspect of my app. I was able to successfully update the state to what I wanted, but only within the child component, not the parent component.
+
+**Thoughts:** The more I learn about React Native, the more I see that probably the most important thing to master is the exchange of data and manipulating state between parent and child components. At this point, it seems to me that if you can do that <i>really</i> well, the other things are much more straightforward. Having function props pass data between parent and child components can be tricky to keep track of and understand. I think I should invest the most amount of time and energy in really getting this down.
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
+
