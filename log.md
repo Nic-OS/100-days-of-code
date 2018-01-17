@@ -73,4 +73,10 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days
 
+### Day 9: January 16th, 2018
 
+**Today's Progress**: I drew a flow chart to help me trace the logic of the app and exchange of data between the parent and child components. I felt like I needed to visualize it to really grasp it. As I said yesterday, I keep getting the sense that managing state between parent and child components is essential to using React Native properly, so I'm committed to really getting the hang of this. I also made some changes to my next input component, which is a Picker component. By the end, though, all I'd managed to do was get my app to crash every time I opened it lol.
+
+**Thoughts:** Even though I ended my hour of coding with my app repeatedly crashing every time I opened it, I feel encouraged! I actually feel a lot less intimidated every time I sit down to code. I used to be intimidated and it made me want to avoid coding, which led to all kinds of excuses to get out of doing it (even though I really wanted to code). Now, I feel pretty comfortable with the old Facebook motto: "Move fast and break things." I definitely broke my app tonight lol. Looking forward to tomorrow!
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
