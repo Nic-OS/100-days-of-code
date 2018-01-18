@@ -80,3 +80,12 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Thoughts:** Even though I ended my hour of coding with my app repeatedly crashing every time I opened it, I feel encouraged! I actually feel a lot less intimidated every time I sit down to code. I used to be intimidated and it made me want to avoid coding, which led to all kinds of excuses to get out of doing it (even though I really wanted to code). Now, I feel pretty comfortable with the old Facebook motto: "Move fast and break things." I definitely broke my app tonight lol. Looking forward to tomorrow!
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
+### Day 10: January 17th, 2018
+
+**Today's Progress**: This was one of my less productive days. I experimented with a few different ways of passing data from my Picker child component to my main App parent component, but I couldn't get it to work quite like I wanted. I moved my project from Expo back to Atom because I was getting weird errors in Expo.
+
+**Thoughts:** Tonight, I considered it a victory that I even sat down to code. It was one of those nights where I was exhausted but refused to go to sleep without coding. I didn't accomplish much, but I at least reviewed my code, walked through some things I did yesterday and experimented with things I wanted to try tonight. I'm very happy about just overcoming Resistance tonight and sticking to my commitment to doing this thing I really care about.
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
