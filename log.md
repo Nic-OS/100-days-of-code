@@ -89,3 +89,11 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days
 
+### Day 11: January 18th, 2018
+
+**Today's Progress**: Spent some time practicing React building simple web pages.
+
+**Thoughts:** Although I didn't do any real work on the app, I feel like I've kind of started to forget basic JS and React concepts as I struggle through React Native. When I encounter an error, I'll look into it and realize that it was a relatively simple concept that I forgot about, such as the limitations of block-scope variables. So, I spent some time refreshing tonight by creating some simple web pages with React and following a tutorial to brush up on some basic skills.
+
+**Link to work:** Nothing really to show here tonight, unfortunately.
+
