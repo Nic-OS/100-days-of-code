@@ -97,3 +97,8 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** Nothing really to show here tonight, unfortunately.
 
+### Day 12: January 19th, 2018
+
+**Today's Progress**: I got almost every one of my child components to work correctly!! I added a few things to make sure the parent component's state was updating properly, but I did have some issues with those.
+
+**Thoughts:** I feel so much happier about coding now. It's amazing how solving a problem can completely change your attitude toward coding.
