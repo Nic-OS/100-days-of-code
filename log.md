@@ -102,3 +102,20 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Today's Progress**: I got almost every one of my child components to work correctly!! I added a few things to make sure the parent component's state was updating properly, but I did have some issues with those.
 
 **Thoughts:** I feel so much happier about coding now. It's amazing how solving a problem can completely change your attitude toward coding.
+
+### Day 13: January 20, 2018
+
+**Today's Progress**: Got my userGender component to update the parent state. 
+
+**Thoughts:** I'm loving working on this app.
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
+### Day 14: January 22, 2018
+
+**Today's Progress**: I completed the basic functionality of my app!! I got all child components to correctly update the state by providing a callback to the parent (prop) within the child component's primary function. For my TextInput component, it was the onSubmitEditing prop. For my Picker components (userGender and userCountry), it was their onValueChange prop. I added a function that my friend showed me that displays the state attributes as they're updated, so I could make sure the callbacks between parent and child components were actually working--they do!!
+
+**Thoughts:** I was so excited to complete this part of the app. I've been working on it for a long time and there were several points where I was stuck for weeks. I missed coding yesterday but hit it hard today and it paid off! I just kept troubleshooting and asking myself, "Okay, why isn't this particular thing working? It seems to be written exactly like the other component, which is working, but for some reason <i>this one</i> isn't working--why not? What's different?" And that led me to figure out that I wasn't passing the user's inputted value (in the child component) as an argument to the function prop. Therefore, the parent component couldn't access the value from the child component that it needed to update its state. Now all that's left is tweaking some things and updating the UI!
+
+**Link to work:** https://snack.expo.io/@nic-os/number-your-days
+
