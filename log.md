@@ -126,3 +126,17 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Thoughts:** I'm really excited to learn Git and GitHub now. It seems like it'll make things so much easier, plus it'll allow me to contribute to other open-source projects once I gain more skills. I love the idea of being a part of the open-source world. Using Git has given me a sense of being connected to other developers and their projects beyond my own simple apps. As far as my own current app, I think (hope) I'll be done with it by next week!
 
 **Link to work:** https://snack.expo.io/@nic-os/number-your-days (trying to add the local repository to GitHub but still learning that part :D)
+
+### Day 16: January 25th, 2018
+
+**Today's Progress:** Still working through using React Navigation. I created a simple test app to practice with before I add it to my app.
+
+**Thoughts:** I missed a day yesterday, which was discouraging, but I don't want to lose any steam! I still want to code as much as possible. I know I just need to focus on consistency.
+
+### Day 17: January 26th, 2018
+
+**Today's Progress:** I went back to my FreeCodeCamp Tribute Page (which I still need to finish) and tried changing some things, mostly formatting and content.
+
+**Thoughts:** Going back and forth between programming languages can be a bit confusing but can also make things easier. React Native has a lot of similarities to HTML/CSS, at least in terms of my conceptual understanding of it. An obvious example of this is the similarity between divs and Views. I'm liking that continuity.
+
+
