@@ -139,4 +139,24 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Thoughts:** Going back and forth between programming languages can be a bit confusing but can also make things easier. React Native has a lot of similarities to HTML/CSS, at least in terms of my conceptual understanding of it. An obvious example of this is the similarity between divs and Views. I'm liking that continuity.
 
+## Day 18: January 27th, 2018
 
+**Today's Progress:** Struggled through some more React Navigation stuff, as well as continuing to learn about Git and GitHub. I didn't add React Navigation to my main app yet, just changed some things in the test navigation app to get a better understanding of how it works and how I would integrate it into my app.
+
+**Thoughts:** I almost wish I would've tried learning React Navigation from the get-go so that it would be easy to integrate into my existing app. Then again, I think I needed to focus on just the basics in the beginning, step by step. Although Navigation seems a bit confusing right now, I think that's also partly because I haven't had the best opportunities to code this week with a 1 year old.
+
+## Day 19: January 28th, 2018
+
+**Today's Progress:** Going through some tutorials with React Navigation made it even more confusing, so I've also been reading through documentation as I change things here and there in the test app. Do I add the Stack Navigator to each child component? Or do I add the Stack Navigator to the main App component and pass the child components in there as the 'screen'?
+
+**Thoughts:** I think I can actually finish this app this week, as long as I can get a good hour in each day (with no interruptions or distractions!).
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 19: January 29th, 2018
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
