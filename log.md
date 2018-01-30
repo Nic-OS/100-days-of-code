@@ -155,8 +155,10 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 ## Day 19: January 29th, 2018
 
-**Today's Progress:**
+**Today's Progress:** Pretty much just read through a lot of documentation today... I'm *definitely* going to make awesome progress on the Stack Navigator tomorrow. 
 
-**Thoughts:**
+**Thoughts:** My hour coding every day hasn't been very productive the last week, so that's a bit discouraging, but I'm not giving up. I'm counting it a success if I just sit down and code regardless of the outcome. The more I'm exposed to the material and practice, the better I'll be.
 
-**Link to work:**
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+
