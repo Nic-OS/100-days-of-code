@@ -153,7 +153,7 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
-## Day 19: January 29th, 2018
+## Day 20: January 29th, 2018
 
 **Today's Progress:** Pretty much just read through a lot of documentation today... I'm *definitely* going to make awesome progress on the Stack Navigator tomorrow. 
 
