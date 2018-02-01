@@ -161,4 +161,16 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 21: January 30th, 2018
 
+**Today's Progress:** I didn't really accomplish anything today other than more reading, which I didn't understand.. *sigh*.
+
+**Thoughts:** For some reason, React Navigation has been hard for me to understand conceptually, at least as far as how to integrate it into my existing app. I keep running into the same issue of whether I should add the Stack Navigator to the main App.js file or to each of the child components, which I would then render in the Stack Navigator.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 22: January 31th, 2018
+
+**Today's Progress:** After trying to integrate Navigation into my app, I saw a *looootttt* of error messages. I almost feel like starting from scratch so that I can use what I've done but with React Navigation specifically in mind. I did finally move from just reading documentation to actually coding today, so that was awesome.
+
+**Thoughts:** I've felt like React Navigation put me in sort of a slump the past week or two. I lost a lot of motivation to code because it seemed confusing and frustrating. Tonight, I forced myself to just *try* things and code. As a result, I got nothing but errors every time I re-rendered, but it was the most exciting time coding I've had for weeks now. The challenge made me not want to stop and I coded for two hours instead of one tonight. I'm super pumped to try again tomorrow morning with coffee :D
