@@ -174,3 +174,19 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Today's Progress:** After trying to integrate Navigation into my app, I saw a *looootttt* of error messages. I almost feel like starting from scratch so that I can use what I've done but with React Navigation specifically in mind. I did finally move from just reading documentation to actually coding today, so that was awesome.
 
 **Thoughts:** I've felt like React Navigation put me in sort of a slump the past week or two. I lost a lot of motivation to code because it seemed confusing and frustrating. Tonight, I forced myself to just *try* things and code. As a result, I got nothing but errors every time I re-rendered, but it was the most exciting time coding I've had for weeks now. The challenge made me not want to stop and I coded for two hours instead of one tonight. I'm super pumped to try again tomorrow morning with coffee :D
+
+## Day 23: February 1st, 2018
+
+**Today's Progress:** I can't seem to integrate the Stack Navigator into my app as smoothly as I planned. My main issue is that I can't figure out the best way to render the Stack Navigator. I learned that every class-based React component needs a Render function, but for some reason the Stack Navigator didn't render when I tried passing it in. I could've just written it wrong, but it threw me off. I tried changing my App component to not be a class-based exponent, but instead just having the Stack Navigator be the default export of the App.js file so that *that* was rendered instead--it didn't work. 
+
+**Thoughts:** I'm a little discouraged that this has been so hard to grasp. I feel like learning new things in React Native has been a lot harder than I expected. I seem to always spend more time learning than I'd like. I expect that I should be able to pick things up quickly--at least no more than a day or two before I can start using them. It just doesn't happen for me, though. I try not to spend too much time reading documentation and instead just get into coding, but then I inevitably get stuck and need to go read the documentation anyway. Honestly, this whole project app has taken longer than I wanted it to, but I'm happy to make even a little progress every day.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 24: February 3rd, 2018
+
+**Today's Progress:** I tried changing a few different things to get the Stack Navigator to render but I kept getting errors. Most of them said my app wasn't registered, so I tried making small syntax changes but those didn't work. I have another copy of the app in Expo which I've used to compare. Tomorrow I'm going to try just rendering the Stack Navigator in the main App render function again. I'm just going to store the Stack Navigator in a variable in the main App.js file, pass in each child component as screens after storing the configured components as variables, then render just the Navigator.
+
+**Thoughts:** Still determined, need to keep trying things. I've felt so tired the past few days, but I'm still counting it a win if I can just manage to code for an hour. I missed yesterday and forced myself to code tonight. As long as I make progress!
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
