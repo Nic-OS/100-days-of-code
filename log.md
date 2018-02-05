@@ -190,3 +190,14 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Thoughts:** Still determined, need to keep trying things. I've felt so tired the past few days, but I'm still counting it a win if I can just manage to code for an hour. I missed yesterday and forced myself to code tonight. As long as I make progress!
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 25: February 4th, 2018
+
+**Today's Progress:** I have the Stack Navigator added to my app and can render it, but my main problem is finding the best way to pass props to the child components. Before I added Navigation, I could just pass data to the props of the child components when I rendered them in my main App.js component. Now, I can't find a functional way to do that while the child components are in the Stack Navigator. 
+
+**Thoughts:** After seeing so many error messages the past few days, I've tried to consciously react to problems as puzzles to be solved instead of something to get frustrated about. Ideally, I want to develop a joyful persistence because I know coding is going to be full of problems. As far as what I need to do in my app now, I read a thread on GitHub where someone had my exact same issue (passing data to props in the child components without going through the Stack Navigator `this.props.navigation.state.params`). If I can figure that out, I should be completely done with **all** the functionality of the app, and I can completley focus on UI stuff, which I'm really excited about. My goal for this week is actually to code for *more* than an hour a day. Basically, I want to use all my free time to code. I think I need to just immerse myself in this stuff at this point. I want to get good at coding, and I know that requires complete immersion.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+
+
