@@ -199,5 +199,11 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 26: February 5th, 2018
 
+**Today's Progress:** I didn't really make any progress today. I found a potential workaround to the issue of passing regular props to child components instead of navigation params [here](https://github.com/react-navigation/react-navigation/issues/935). I still can't find a workable way to pass the props I need to the child components when I'm using navigation.
+
+**Thoughts:** When this was a single page app, I could easily just have separate child components that were merely presentational and one container component (App.js). I wrote functions for each child component and passed them as props when rendering them all in the main App `render()` function. Now, I don't know how to pass those same functions as props to the child components when using them in the Stack Navigator. The thing that really confuses is what the structure of the app should be. It seems that the Stack Navigator should be a separate component, but then what about the App logic and data? Where should I store that? In the App component? Okay, but then how do I access the main app data when I'm configuring the Stack Navigator? I think I need to move things around somehow. I again moved the project to [Expo](https://snack.expo.io/@nic-os/number-your-days) so I could get feedback in real-time when I have errors.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
 
