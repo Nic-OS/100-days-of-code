@@ -207,3 +207,10 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 27: February 8th, 2018
+
+**Today's Progress:** I tried implementing the solution that others suggested to pass navigation params to props. I initialized the Stack Navigator in the main App component, then used a function to create a wrapper for each screen component so that I could map the navigation params to props without having to rewrite the code for each of my child components. I haven't quite gotten it to work yet, but I think I'm on the right track.
+
+**Thoughts:** The confusing part for me is how to pass functions in the params/props where I'll need a callback to the parent component. Before using Navigation, I could simply call each child "dummy" or "presentational" component and pass functions as props to them, which would allow me to access the data they were capturing and store it centrally in the state of my main App component. That was a good solution because I could keep almost all of the app logic in the main App component. Now, it seems like I'll have to rewrite at least *some* code in each child component if I want to pass props to each. But even then, how will I pass the functions I wrote in the main App component and access the data from each child component to store in the App component? That's the part that's really stumping me. 
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
