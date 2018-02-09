@@ -214,3 +214,24 @@ Also, when creating the two simple snacks on Expo, I was able to write a lot of 
 **Thoughts:** The confusing part for me is how to pass functions in the params/props where I'll need a callback to the parent component. Before using Navigation, I could simply call each child "dummy" or "presentational" component and pass functions as props to them, which would allow me to access the data they were capturing and store it centrally in the state of my main App component. That was a good solution because I could keep almost all of the app logic in the main App component. Now, it seems like I'll have to rewrite at least *some* code in each child component if I want to pass props to each. But even then, how will I pass the functions I wrote in the main App component and access the data from each child component to store in the App component? That's the part that's really stumping me. 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 28: February 9th, 2018
+
+**Today's Progress:** I actually got the Stack Navigator to work!! It actually renders something on the screen! I still need to fix the params/props issue so that each screen has what it needs to properly render and function, but at least I have the core issue resolved.
+
+**Thoughts:** I kept getting an error after adding the `const RootNavigator = StackNavigator()`, but I realized it was because I had it in the wrong place. I had it within the `export default class App extends Component{}`, but outside the `render()` function. So once I added it like this:
+
+```
+export default class App extends Component {
+...
+render() {
+const RootNavigator = StackNavigator(...);
+
+return <RootNavigator />;
+ } 
+}
+```
+
+It worked fine! I also had to fix tiny syntax errors that kept throwing me off, like not capitalizing the `title` prop in my `Button` component. So now, I have to figure out the best way to pass props to my presentational components with react navigation. I'm excited to be done with this simple project that's taught me so much about React/React Native and coding in general!
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
