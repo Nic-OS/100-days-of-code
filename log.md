@@ -235,3 +235,11 @@ return <RootNavigator />;
 It worked fine! I also had to fix tiny syntax errors that kept throwing me off, like not capitalizing the `title` prop in my `Button` component. So now, I have to figure out the best way to pass props to my presentational components with react navigation. I'm excited to be done with this simple project that's taught me so much about React/React Native and coding in general!
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 29: February 10th, 2018
+
+**Today's Progress:** I am happy to report that the Stack Navigator is fully functional! It looks ugly and the last component doesn't work yet (calculating remaining days), but the navigator itself is all done!
+
+**Thoughts:** I'm so happy to have gotten the Navigator to work. The feeling of reloading your virtual device and not seeing a red error page is indescribable. There was a point where I was just cranking out `Button`s and editing all the presentational components as if it were automatic, and I felt really good. I'm such a newbie, but I've learned so much that I can't help but be proud of how far I've come. I don't think the final component will be nearly as difficult as figuring out React Navigation in general. I get the sense that I've passed a really important checkpoint, and it's all downhill from here.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
