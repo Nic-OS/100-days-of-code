@@ -243,3 +243,21 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 **Thoughts:** I'm so happy to have gotten the Navigator to work. The feeling of reloading your virtual device and not seeing a red error page is indescribable. There was a point where I was just cranking out `Button`s and editing all the presentational components as if it were automatic, and I felt really good. I'm such a newbie, but I've learned so much that I can't help but be proud of how far I've come. I don't think the final component will be nearly as difficult as figuring out React Navigation in general. I get the sense that I've passed a really important checkpoint, and it's all downhill from here.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 30: February 11th, 2018
+
+**Today's Progress:** I made some minor UI changes to center the `View`s for each component, enlarge and bold the `Text`, etc. 
+
+**Thoughts:** I was feeling tired today so I didn't want to frustrate myself trying to tackle any large problems. Still, I wanted to make the most of my time so I at least made some UI changes that I knew I'd have to get to eventually. Tomorrow I'll get back to figuring out how to finish the last component. The last issue left is storing and accessing the app's data in the `<DaysLeft />` component.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 31: February 12th, 2018
+
+**Today's Progress:** After attempting a few different ways to pass data as params from the main `<App />` component to each presentational component screen in the Navigator, I concluded I need to learn and use Redux for this app. I don't think there's an easy way to do what I need to do. And, even if I did figure it out, I don't think it would be best coding practice. I get the sense it would be more of a workaround but not actually good code. So, I started reading up on Redux today as well.
+
+**Thoughts:** I'm glad I tried using params to pass data first because I think it was good practice for me. I knew I'd eventually need to learn Redux but was hoping to finish this app without it. From the little I know of it, it definitely seems like the solution to my problem of accessing app data across the whole app. So, on to Redux!
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+
