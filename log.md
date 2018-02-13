@@ -260,4 +260,10 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 32: February 13th, 2018
 
+**Today's Progress:** Installed Redux and React Redux in my app. Still learning how to properly integrate it.
+
+**Thoughts:** I'm pretty much just reading documentation and watching a few tutorials on using Redux at this point. The difference between Actions and Reducers is the most confusing part for me right now. I don't see why you can't just have a Reducer function that modifies the state in some way on its own. Having Actions and Reducers just seems like destructing the process in an unnecessary way, but I'm sure I'll learn more about why it's important later.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
