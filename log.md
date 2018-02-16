@@ -267,3 +267,12 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 **Thoughts:** I'm pretty much just reading documentation and watching a few tutorials on using Redux at this point. The difference between Actions and Reducers is the most confusing part for me right now. I don't see why you can't just have a Reducer function that modifies the state in some way on its own. Having Actions and Reducers just seems like destructing the process in an unnecessary way, but I'm sure I'll learn more about why it's important later.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 33: February 15th, 2018
+
+**Today's Progress:** Created reducer folder with index file and reducers for each property of my app's state. Moved all app data to the Redux reducers.
+
+**Thoughts:** I really enjoyed coding tonight. I watched some course videos on Redux and read through some documentation while adding my own reducers. Using Redux seems like *such* a better system for managing app data, even for smaller apps like mine. It just feels a lot more organized and simple. It can definitely be a little confusing trying to track the flow of data throughout the app when you have so many different files and components floating around, but once you successfully integrate them it helps to have them compartmentalized. I almost didn't want to stop tonight! Already looking forward to tomorrow.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
