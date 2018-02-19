@@ -276,3 +276,19 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 34: February 17th, 2018
+
+**Today's Progress:** Reviewed reducers, used the `connect` function in react-redux to mapStateToProps in order to access the global state from within my UserAge component.
+
+**Thoughts:** Reducers make sense to me, but I can tell this is where it's going to get more confusing. Usually I've had to review the same concepts 2-3 times to really have them stick, so I expect to do that soon when starting Actions and ActionCreators.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 35: February 19th, 2018
+
+**Today's Progress:** Started learning about ActionCreators, created my own for the UserAge component and used the `bindActionCreators` function to map the ActionCreator `setUserAge` to `this.props.onSubmit`. 
+
+**Thoughts:** I didn't feel very focused this morning, probably because I've missed coding two of the last three days. I'll probably review ActionCreators and Actions later tonight again to try and have it stick before (hopefully) advancing tomorrow. I'm not quite sure what or if there's a difference between Redux for React vs. React Native, but I've been following a model from a tutorial on React, so I hope it's not too different. Either way, I still feel like I'm in the learning phase, so I don't mind going back and changing something to make it better because it'll help me learn more thoroughly anyway.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
