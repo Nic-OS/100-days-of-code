@@ -292,3 +292,11 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 35: February 23rd, 2018
+
+**Today's Progress:** Started off with reviewing the ActionCreators again since I'd missed a few days. I made some minor updates and deleted some things that were unnecessary or overly complex.
+
+**Thoughts:** I'm disappointed that I missed a few days. I think it was easier to skip because it's difficult learning something new, which is what I've been doing the past few coding sessions. There have been several stages where I thought I was close to being done with the app and then I had to learn something new (i.e., Navigation, then Redux). I'm grateful that I've been learning so much, though. I need to focus on the process of learning and growing, not necessarily on any particular outcome, although I am obviously shooting for completing this app.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
