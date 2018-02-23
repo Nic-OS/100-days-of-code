@@ -292,7 +292,7 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
-## Day 35: February 23rd, 2018
+## Day 36: February 23rd, 2018
 
 **Today's Progress:** Started off with reviewing the ActionCreators again since I'd missed a few days. I made some minor updates and deleted some things that were unnecessary or overly complex.
 
