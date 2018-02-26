@@ -300,3 +300,11 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 37: February 25th, 2018
+
+**Today's Progress:** I updated my code to have each component rely on the actions and reducers to manage state. Initially, I began with managing all state in the App.js file, but I also had local state for each presentational component that I then passed back to the parent component. Now I've gotten rid of the local state so that only the actions manage the global state. However, I'm still able to render the current global state within each presentational component since I mapped state to props.
+
+**Thoughts:** Things are really "clicking" for me now. I'm actually enjoying learning and using Redux. I've been a little scared to actually run my app in the simulator for fear of rampant errors lol, but I'll run it after I *think* I'm completely done setting everything up. At this point, I know there will be many errors. One thing I'm excited about is that, as I review this Redux stuff and trace the flow of data, I can visualize it in my mind and that's really been helping to connect the dots. The big breakthroughs come for me when I'm able to visualize what I'm doing and why. Hopefully I make great progress this week!
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
