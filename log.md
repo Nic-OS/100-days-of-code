@@ -308,3 +308,18 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 38: February 27th, 2018
+
+**Today's Progress:** Cleaned up some minor errors in the ActionCreators.
+
+**Thoughts:** Got all ActionCreators almost completely set up. It's been kind of a lot to keep track of, and I keep feeling like I should add more comments to my code, but I'll go back and add comments at the end when I actually get it working.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 39: February 28th, 2018
+
+**Today's Progress:** I got everything set up with Redux and navigation! All ActionCreators, reducers, the StackNavigator--everything! I completely rewrote the App.js file so that it was only a presentational component for each of the container components and the RootNavigator. The complete functionality (including full state management through Redux) should be *almost* fully done.
+
+**Thoughts:** I tried running the app in the simulator but got weird, undecipherable errors. So, I moved everything to Expo (again) so that I could get more detail on the errors. Oddly, there were none, and when I ran the app in the Preview simulator, it actually rendered my Welcome Screen. However, when I clicked the button to begin and advance to the UserAge component screen, the app re-rendered and started over at the Welcome screen. It's hard to tell why exactly, but I have a feeling it has to do with the state starting off null and then updating to cause a re-render. I'll have to figure that out.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days; https://snack.expo.com/@nic-os/number-your-days
