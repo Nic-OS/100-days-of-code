@@ -323,3 +323,11 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 **Thoughts:** I tried running the app in the simulator but got weird, undecipherable errors. So, I moved everything to Expo (again) so that I could get more detail on the errors. Oddly, there were none, and when I ran the app in the Preview simulator, it actually rendered my Welcome Screen. However, when I clicked the button to begin and advance to the UserAge component screen, the app re-rendered and started over at the Welcome screen. It's hard to tell why exactly, but I have a feeling it has to do with the state starting off null and then updating to cause a re-render. I'll have to figure that out.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days; https://snack.expo.com/@nic-os/number-your-days
+
+## Day 40-43: March 1st, 2nd, and 5th
+
+**Today's Progress:** I've been stuck trying to get my app to render properly. I think I configured Redux incorrectly, though I followed a tutorial pretty closely and only modified it for my particular app. I didn't actually create a Redux `store` to pull from, but I generated the app state by returning it from the reducers, which might be why it hasn't loaded properly.
+
+**Thoughts:** I'm ready to be done with this app. I've already spent way too much time on it than I should have, and it really should've only taken me a weekend to do it. It's taken me FOUR MONTHS. Granted, I'm learning as I go, but still, it's not complicated at all and should have worked much sooner. Tomorrow I'll try setting up my Redux store and will change things around a bit. I've been using [React Native Express](www.reactnativeexpress.com) to reevaluate my Redux setup, and I think I'll use that as a template for my own app. I desperately want to be done with this app as soon as possible so I can move onto something more fun.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
