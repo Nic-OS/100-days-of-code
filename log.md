@@ -331,3 +331,13 @@ It worked fine! I also had to fix tiny syntax errors that kept throwing me off, 
 **Thoughts:** I'm ready to be done with this app. I've already spent way too much time on it than I should have, and it really should've only taken me a weekend to do it. It's taken me FOUR MONTHS. Granted, I'm learning as I go, but still, it's not complicated at all and should have worked much sooner. Tomorrow I'll try setting up my Redux store and will change things around a bit. I've been using [React Native Express](www.reactnativeexpress.com) to reevaluate my Redux setup, and I think I'll use that as a template for my own app. I desperately want to be done with this app as soon as possible so I can move onto something more fun.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 44-45: March 7th, 8th
+
+**Today's Progress:** 
+March 7th was pretty unproductive. Figuring out how to restructure Redux. Different tutorials are saying different things and setting them up differently, so I've gotten pretty confused. 
+March 8th was more productive. Today I've actually restructured Redux and am following the official Redux documentation (seems obvious). The only thing I haven't done yet is set up my `store`. I also combined all my reducers into one file and my action creators into one file for simpler organization. I previously had my folders and files set up as if it were a complex app, which it's not, so it made navigating through the files unnecessarily difficult. I hope this streamlines things. 
+
+**Thoughts:**  One thing I've noticed is that tutorials often do things a certain way *assuming* either a complex or simple app. For instance, you may organize Redux differently for your app if it's large and handles a lot of data vs. a simple app (like mine) that doesn't have a lot of data to manage. When I follow tutorials that assume a complex app, things don't make sense to me and seem overly complicated, which is confusing. Now that I've cleaned things up a bit, I realize how dramatic the difference is between "clean" and "messy" code. I'm glad I'm not just making things *work*, but hopefully make them work *well*.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
