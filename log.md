@@ -341,3 +341,13 @@ March 8th was more productive. Today I've actually restructured Redux and am fol
 **Thoughts:**  One thing I've noticed is that tutorials often do things a certain way *assuming* either a complex or simple app. For instance, you may organize Redux differently for your app if it's large and handles a lot of data vs. a simple app (like mine) that doesn't have a lot of data to manage. When I follow tutorials that assume a complex app, things don't make sense to me and seem overly complicated, which is confusing. Now that I've cleaned things up a bit, I realize how dramatic the difference is between "clean" and "messy" code. I'm glad I'm not just making things *work*, but hopefully make them work *well*.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 46: March 16th, 2018
+
+**Today's Progress:** I *hopefully* simplified my app further by just having one reducer for the app, as opposed to a separate reducer for each piece of state. I know it's better to separate reducers, but I think my app is so small and simple that one reducer is just easier at this point. The one reducer only needs to update the state via a switch statement as it evaluates the action type and updates the piece of state accordingly. I also created the Redux `store`. 
+
+**Thoughts:** I fell off the bandwagon for quite a while, but I'm back to it now. I let lack of sleep keep me from attempting to code by telling myself I was too tired to learn/practice. I'm eager to test my app and I really hope I can get everything working. I have two weeks of productivity coming up, so my goal is to have the app completely done by then. Tomorrow I'll focus on passing the Redux store to each container component in order to let each access and update the store.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
+
