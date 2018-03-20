@@ -350,4 +350,10 @@ March 8th was more productive. Today I've actually restructured Redux and am fol
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 47: March 20th, 2018
 
+**Today's Progress:** I fixed some navigational things that were throwing me off for a while because I didn't realize what I was doing wrong. 
+
+**Thoughts:** I think the only remaining challenge is understanding the best way to connect or "pass" my store to the rest of my container components. I've previously just copied tutorials, which led not only to me not understanding, but to the app not working anyway! I've been learning Redux slowly, but it's because I really want to understand why things are set up the way they are. I just want to finally get a working app going.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
