@@ -357,3 +357,21 @@ March 8th was more productive. Today I've actually restructured Redux and am fol
 **Thoughts:** I think the only remaining challenge is understanding the best way to connect or "pass" my store to the rest of my container components. I've previously just copied tutorials, which led not only to me not understanding, but to the app not working anyway! I've been learning Redux slowly, but it's because I really want to understand why things are set up the way they are. I just want to finally get a working app going.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 48: March 24th, 2018
+
+**Today's Progress:** I passed the `store` to all components by passing it to the `Provider` component in Redux, then rendering `App` within the `Provider` component, like so:
+```javascript
+let store = createStore(rootReducer);
+
+const AppWithStore = () => (
+  <Provider store={store}>
+    <App />
+  </Provider>
+)
+```
+It feels good to finally be done passing the store to all components, which held me up for a while.
+
+**Thoughts:** To my great delight, I did not get the red error screen of death when I tried rendering my app in the simulator. Navigation worked as expected. The only problem was that the final screen, which is my `DaysLeft` component, did not show the number of days left. I don't know where exactly the issue is, though. I'll have to investigate whether the `store` is actually updating at all, or if it's specifically something in the `DaysLeft` component calculation. Still, I made great progress today and am very excited.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
