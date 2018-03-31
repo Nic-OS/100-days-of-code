@@ -375,3 +375,11 @@ It feels good to finally be done passing the store to all components, which held
 **Thoughts:** To my great delight, I did not get the red error screen of death when I tried rendering my app in the simulator. Navigation worked as expected. The only problem was that the final screen, which is my `DaysLeft` component, did not show the number of days left. I don't know where exactly the issue is, though. I'll have to investigate whether the `store` is actually updating at all, or if it's specifically something in the `DaysLeft` component calculation. Still, I made great progress today and am very excited.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 49: March 31, 2018
+
+**Today's Progress:** FUNCTIONALITY IS FINALLY **DONE**!! I actually got everything working as it should be. I think the problem was that the action creators were not properly dispatching to the reducer. I had to rewrite them from what I found in a tutorial a while back to what was in the official Redux documentation.
+
+**Thoughts:** It feels so good to actually be done with this. I'm going to do some minor UI changes to make it not look like crap, then I'll be done with it. I'm ready to move on to other projects ASAP. I lost motivation for this one a long time ago since it was supposed to only be to help me learn React Native, but it ended up taking longer than I expected. My goal is to be completely finished by this weekend!
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
