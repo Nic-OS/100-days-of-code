@@ -383,3 +383,11 @@ It feels good to finally be done passing the store to all components, which held
 **Thoughts:** It feels so good to actually be done with this. I'm going to do some minor UI changes to make it not look like crap, then I'll be done with it. I'm ready to move on to other projects ASAP. I lost motivation for this one a long time ago since it was supposed to only be to help me learn React Native, but it ended up taking longer than I expected. My goal is to be completely finished by this weekend!
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 50: April 3rd, 2018
+
+**Today's Progress:** Added some styling to the initial Welcome screen.
+
+**Thoughts:** Now that I'm completely focused on styling, it's like learning something new all over again! I haven't focused on styling/CSS for several months now since I only wanted to fix the functionality. Now, this feels really fun because I'm not worried about making a mistake. If I do something wrong, my whole app doesn't crash; it only affects the layout of the components. 
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
