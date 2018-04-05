@@ -391,3 +391,12 @@ It feels good to finally be done passing the store to all components, which held
 **Thoughts:** Now that I'm completely focused on styling, it's like learning something new all over again! I haven't focused on styling/CSS for several months now since I only wanted to fix the functionality. Now, this feels really fun because I'm not worried about making a mistake. If I do something wrong, my whole app doesn't crash; it only affects the layout of the components. 
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 51: April 4th, 2018
+
+**Today's Progress:** Added styling to the Age input screen.
+
+**Thoughts:** I'm really having fun with the styling. I'll just do some basic styling and then move onto the next project.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
+
