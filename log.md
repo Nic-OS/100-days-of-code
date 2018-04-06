@@ -400,3 +400,10 @@ It feels good to finally be done passing the store to all components, which held
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
 
+## Day 52: April 6th, 2018
+
+**Today's Progress:** Minimal styling changes. Added better comments throughout app to keep track of what's happening.
+
+**Thoughts:** Today felt like an "administrative" day, but it really helps me to understand what I've done. It felt good commenting throughout the app, particularly for React-Redux things.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
