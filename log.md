@@ -407,3 +407,11 @@ It feels good to finally be done passing the store to all components, which held
 **Thoughts:** Today felt like an "administrative" day, but it really helps me to understand what I've done. It felt good commenting throughout the app, particularly for React-Redux things.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 53: April 7th, 2018
+
+**Today's Progress:** Moved all styling to a stylesheet to clean up the code. Added a `KeyboardAvoidingView` and `Keyboard.dismiss()` to improve the user experience.
+
+**Thoughts:** These kinds of small changes feel good because they're simple. It's a nice way to finish up the app with simple polishing touches.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
