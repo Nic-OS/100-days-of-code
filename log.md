@@ -415,3 +415,11 @@ It feels good to finally be done passing the store to all components, which held
 **Thoughts:** These kinds of small changes feel good because they're simple. It's a nice way to finish up the app with simple polishing touches.
 
 **Link to work:** https://github.com/Nic-OS/number-your-days
+
+## Day 54: April 10th, 2018
+
+**Today's Progress:** `<TouchableWithoutFeedback onPress={Keyboard.dismiss}` wasn't working initially, but that's because I had everything wrapped in the `<KeyboardAvoidingView>`, which I couldn't get to work no matter what I tried. So, I just deleted it and kept the `<TouchableWithoutFeedback>` component. It's working now!
+
+**Thoughts:** It's so funny how seemingly minor things can take up so much time. I've set a hard goal for myself to finish the app by this weekend.
+
+**Link to wrok:** https://github.com/Nic-OS/number-your-days
