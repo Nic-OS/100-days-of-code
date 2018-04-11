@@ -423,3 +423,11 @@ It feels good to finally be done passing the store to all components, which held
 **Thoughts:** It's so funny how seemingly minor things can take up so much time. I've set a hard goal for myself to finish the app by this weekend.
 
 **Link to wrok:** https://github.com/Nic-OS/number-your-days
+
+## Day 55: April 11th, 2018
+
+**Today's Progress:** Finished all preliminary styling! Everything looks good, now it'll just be a matter of polishing and adding a few tweaks here and there before calling it a wrap!
+
+**Thoughts:** I'm not quite done yet, but I'm so proud of almost completing this project. This will be the first project like this I've actually seen all the way through, even when I wanted to give up. Even though it's not a significant app, it means a lot to me as my first project. I may finish long before the weekend, which is my firm deadline.
+
+**Link to work:** https://github.com/Nic-OS/number-your-days
