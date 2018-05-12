@@ -17,3 +17,6 @@ Read through the documentation for the Computer Vision API. Tried going through 
 Got the tutorial working. The problem was I didn't choose one of the few options in the API for a valid Subscription Region in my Azure dashboard, so the subscription keys weren't valid for me to use the API. I don't know why Microsoft even allows you to select regions that won't work with the REST API request later anyway.
 
 I was able to have the API analyze my own business card and it extracted the text perfectly, though my next challenge will be to get it to properly classify what it's seeing (e.g., mobile number, fax number, email address, company name, etc.).
+
+### R2D5-7
+I've spent time looking at ways to validate the JSON data so that it detects whether it's an email, name, phone number, etc. I also started working with Firebase and MLKit to see if Google's solutions work better than Microsoft's. I've basically just been doing some tutorials and reading docs, but it's actually been very interesting to me.
