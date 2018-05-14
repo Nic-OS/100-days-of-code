@@ -22,9 +22,14 @@ I was able to have the API analyze my own business card and it extracted the tex
 I've spent time looking at ways to validate the JSON data so that it detects whether it's an email, name, phone number, etc. I also started working with Firebase and MLKit to see if Google's solutions work better than Microsoft's. I've basically just been doing some tutorials and reading docs, but it's actually been very interesting to me.
 
 ### R2D8 - 5/12/18
-**Goal:** 
+**Goals:** 
   1) Start a simple app that instructs the user to scan a new business card.
   2) Figure out how to use the Camera in React Native
   3) Set the `onClick` prop for the button to open the camera and take a picture.
 
 **Results:** Created simple app. Started watching tutorial on using the Camera in RN. Haven't set the `onClick` button prop to use the Camera yet since I don't know how. That'll be the next step for tomorrow.
+
+### R2D9 - 5/14/18
+**Goal:** Access the Camera in my emulator and a take a picture
+  
+**Results:** Installed `react-native-camera` but kept running into compilation issues. From what I can tell, it seems to be an issue between the versions of React Native and the camera library, but I can't figure it out. Spent a good two hours trying to get it to work to no avail. Going to take a break and try again later today.
