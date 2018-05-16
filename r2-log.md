@@ -33,3 +33,13 @@ I've spent time looking at ways to validate the JSON data so that it detects whe
 **Goal:** Access the Camera in my emulator and a take a picture
   
 **Results:** Installed `react-native-camera` but kept running into compilation issues. From what I can tell, it seems to be an issue between the versions of React Native and the camera library, but I can't figure it out. Spent a good two hours trying to get it to work to no avail. Going to take a break and try again later today.
+
+### R2D10 - 5/15/18
+**Goal:** Move project to Expo to avoid compilation errors. Get camera working and take picture.
+
+**Results:** Moved to Expo but the camera still won't work. The documentation on the react-native-camera github page is crap, to be honest. It doesn't explain the props well and what's required to actually get it working, so I feel left to figure it out on my own by troubleshooting. I wish the docs were laid out like the Facebook RN docs.
+
+### R2D11 - 5/16/18
+**Goal:** Get camera working by any means necessary.
+
+**Results:** Got confused about actually using the Camera component because I kept seeing these `.then` methods in the code. Spent the hour reading up on Promises from this awesome article by Brandon Morelli: https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a. Hopefully by breaking down the different components of using the `Camera`, I'll actually be able to use it and not get tons of errors every time.
