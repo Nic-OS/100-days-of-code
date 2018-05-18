@@ -43,3 +43,10 @@ I've spent time looking at ways to validate the JSON data so that it detects whe
 **Goal:** Get camera working by any means necessary.
 
 **Results:** Got confused about actually using the Camera component because I kept seeing these `.then` methods in the code. Spent the hour reading up on Promises from this awesome article by Brandon Morelli: https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a. Hopefully by breaking down the different components of using the `Camera`, I'll actually be able to use it and not get tons of errors every time.
+
+### R2D12 - 5/18/18
+**Goal:** 
+  1) Get camera working on emulator
+  2) Take and store picture on device storage
+  
+**Results:** It took me longer than the full hour just to get the app to compile with the right dependencies and run on the emulator. I haven't even actually used the Camera component yet. I had to keep installing, then linking, then unlinking, then uninstalling, then reinstalling, etc. the `react-native-camera` library. Finally, I just deleted the entire project and created a new React Native project to try again completely fresh. It finally worked. So now, I at least have the `react-native-camera` library installed and linked to the project and can run the app on the emulator. Tomorrow, I'll try using the camera component.
