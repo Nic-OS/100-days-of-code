@@ -50,3 +50,10 @@ I've spent time looking at ways to validate the JSON data so that it detects whe
   2) Take and store picture on device storage
   
 **Results:** It took me longer than the full hour just to get the app to compile with the right dependencies and run on the emulator. I haven't even actually used the Camera component yet. I had to keep installing, then linking, then unlinking, then uninstalling, then reinstalling, etc. the `react-native-camera` library. Finally, I just deleted the entire project and created a new React Native project to try again completely fresh. It finally worked. So now, I at least have the `react-native-camera` library installed and linked to the project and can run the app on the emulator. Tomorrow, I'll try using the camera component.
+
+### R2D13 - 5/21/18
+**Goals:** 
+  1) Successfully launch the camera
+  2) Take a picture
+  
+**Results:** Achieved both goals! I launched the camera by importing and using the `<Camera />` component, which the react-native-camera docs mistakenly labeled `<RNCamera />` (probably from an older version). The node module Readme actually had great tips, and I basically copied the example code just to use the Camera component. My next step is to figure out how to use the picture I took in my API call to the computer vision API, which will let me scan the picture and extract the written text.
