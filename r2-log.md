@@ -57,3 +57,48 @@ I've spent time looking at ways to validate the JSON data so that it detects whe
   2) Take a picture
   
 **Results:** Achieved both goals! I launched the camera by importing and using the `<Camera />` component, which the react-native-camera docs mistakenly labeled `<RNCamera />` (probably from an older version). The node module Readme actually had great tips, and I basically copied the example code just to use the Camera component. My next step is to figure out how to use the picture I took in my API call to the computer vision API, which will let me scan the picture and extract the written text.
+
+### R2D14 - 5/23/18
+**Goals:** 
+  1) Take and *store* picture
+  2) Use picture in API call
+  
+ **Results:** I struggled to figure out how to save the picture I took. I combed through the documentation to see what the `.capture()` method included, but couldn't find anything. I saw some tutorials that had different version of saving the metadata and the uri, neither of which I understand. But then, I watched [this](https://www.youtube.com/watch?v=Ikgfr9Yot1M&t=313s) YouTube tutorial and realized that the pictures are automatically saved to the Camera Roll, and I could access them if I went to the Gallery on the emulator! I keep thinking that everything is transient on the emulator and therefore gets cleared after a while, but I have to consider the emulator as if it's a real phone. When I went to the Gallery, all the pictures I took were in there!
+My next challenge is to launch the Camera view only after pressing a button. Right now, I tried:
+
+```
+render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
+         Scan a new business card and watch the information populate below!
+        </Text>
+        <TouchableOpacity
+          style={{height: 65, width: 95, alignItems: 'center', backgroundColor: 'blue'}} 
+          onPress={this.launchCamera}
+          >
+          <Text>Scan new business card here</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
+  takePicture = () => {
+    this.camera.capture()
+      .then((data) => console.log(data))
+      .catch(err => console.error(err));
+  }
+
+  launchCamera = () => {
+    return(
+        <Camera
+          ref={(cam) => {
+            this.camera = cam;
+            }}
+          style={styles.preview}
+          aspect={Camera.constants.Aspect.fill}>
+          <Text style={styles.capture} onPress={this.takePicture}>[CAPTURE]</Text>
+        </Camera>);
+  }
+```
+So that when I click the "Scan new business card" button, the Camera view launches, but it hasn't worked yet. I think I could get it to work with an if statement, though. But then I'll need to look into the whole async/Camera.ready/etc.
