@@ -102,3 +102,10 @@ render() {
   }
 ```
 So that when I click the "Scan new business card" button, the Camera view launches, but it hasn't worked yet. I think I could get it to work with an if statement, though. But then I'll need to look into the whole async/Camera.ready/etc.
+
+### R2D15 - 5/24/18
+**Goals:** 
+  1) Only launch camera when I press the `<TouchableOpacity/>`
+  
+**Results:** I successfully set it up so that the `<Camera/>` component only launched when I pressed the `<TouchableOpacity/>` button in my welcome screen. It took a lot of work, but I finally managed it by creating two separate components for each of the two screens: the welcome screen with the button and the camera screen. I then created a function in the main `<App/>` component that evaluated which screen component to render based on a boolean value (`isCameraLaunched`. To update that boolean value, I passed a function that changed the boolean value from false to true as a prop to the `<WelcomeScreen/>` component when the `<TouchableOpacity/>` was pressed. I also added a callback to the parent component by returning the newly changed state (`isCameraLaunched`). By initailizing `isCameraLaunched` to false, the component first renders the `<WelcomeScreen/>`. Then, when the button on the welcome screen is pressed, it updates the boolean to true and renders the `<CameraScreen/>` instead. I'm able to save pictures and look at them in the Camera Roll.
+My biggest struggle to getting this to work was the syntax. I think I had a lot of issues with variable scope. I also unsuccessfully tried different variations of the if/then statement to render the different screens. I'm really pumped to have gotten this to work, finally!
