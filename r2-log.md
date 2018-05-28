@@ -109,3 +109,24 @@ So that when I click the "Scan new business card" button, the Camera view launch
   
 **Results:** I successfully set it up so that the `<Camera/>` component only launched when I pressed the `<TouchableOpacity/>` button in my welcome screen. It took a lot of work, but I finally managed it by creating two separate components for each of the two screens: the welcome screen with the button and the camera screen. I then created a function in the main `<App/>` component that evaluated which screen component to render based on a boolean value (`isCameraLaunched`. To update that boolean value, I passed a function that changed the boolean value from false to true as a prop to the `<WelcomeScreen/>` component when the `<TouchableOpacity/>` was pressed. I also added a callback to the parent component by returning the newly changed state (`isCameraLaunched`). By initailizing `isCameraLaunched` to false, the component first renders the `<WelcomeScreen/>`. Then, when the button on the welcome screen is pressed, it updates the boolean to true and renders the `<CameraScreen/>` instead. I'm able to save pictures and look at them in the Camera Roll.
 My biggest struggle to getting this to work was the syntax. I think I had a lot of issues with variable scope. I also unsuccessfully tried different variations of the if/then statement to render the different screens. I'm really pumped to have gotten this to work, finally!
+
+### R2D16 - 5/25/18
+**Goal:** Integrate REST API call into app.
+
+**Results:** Spent the hour reading up on Firebase with React Native, but realized that was for backend stuff like user authentication. Tomorrow I'll look more into Google's Cloud Client Library.
+
+### R2D17 - 5/26/18
+**Goal:** 
+  1) Add React Navigation via Stack Navigator
+  2) Integrate REST API call into app
+  3) Create new screen to display JSON data
+
+**Results:** After adding the React Navigation and React-Native-Elements libraries, my project wouldn't build again. It kept running into dependency errors, I think. It's really annoying. I'm going to try to move the project to Expo to see if I can avoid those.
+
+### R2D17 - 5/28/18
+**Goal:** 
+  1) Move project to Expo
+  2) Add Navigation
+  3) Make API call with Google Cloud Client Libraries
+  
+**Results:** 
