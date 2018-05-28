@@ -123,10 +123,12 @@ My biggest struggle to getting this to work was the syntax. I think I had a lot 
 
 **Results:** After adding the React Navigation and React-Native-Elements libraries, my project wouldn't build again. It kept running into dependency errors, I think. It's really annoying. I'm going to try to move the project to Expo to see if I can avoid those.
 
-### R2D17 - 5/28/18
+### R2D18 - 5/28/18
 **Goal:** 
   1) Move project to Expo
   2) Add Navigation
   3) Make API call with Google Cloud Client Libraries
   
-**Results:** 
+**Results:** I successfully moved the project to Expo but the Camera app wouldn't render anyway so I just ditched it. I don't have time to learn Expo-specific things when I know I'm going to change it later. I ended up having to start over **again** by deleting my app folder and initializing a new RN project because of dependency issues with the three third-party libraries I was using. 
+After starting over, I installed the libraries first before adding any of my own code. I made sure to link them and run `yarn` again to get the node_modules up-to-date. Finally, it worked without a problem! So I added my code again (but created a separate Component folder) and added React Navigation as well. That easily solved my initial problem of only launching the Camera component `onPress`. Now, the button on the `<WelcomeScreen/>` component navigates to the `<CameraScreen/>` component.
+Finally, I added some new color to the app, which I like a lot.
