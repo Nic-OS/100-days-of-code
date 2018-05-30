@@ -132,3 +132,14 @@ My biggest struggle to getting this to work was the syntax. I think I had a lot 
 **Results:** I successfully moved the project to Expo but the Camera app wouldn't render anyway so I just ditched it. I don't have time to learn Expo-specific things when I know I'm going to change it later. I ended up having to start over **again** by deleting my app folder and initializing a new RN project because of dependency issues with the three third-party libraries I was using. 
 After starting over, I installed the libraries first before adding any of my own code. I made sure to link them and run `yarn` again to get the node_modules up-to-date. Finally, it worked without a problem! So I added my code again (but created a separate Component folder) and added React Navigation as well. That easily solved my initial problem of only launching the Camera component `onPress`. Now, the button on the `<WelcomeScreen/>` component navigates to the `<CameraScreen/>` component.
 Finally, I added some new color to the app, which I like a lot.
+
+### R2D19 - 5/29/18
+**Goals:** 
+  1) Add Google Cloud Client Library for Vision API to project
+  2) Figure out path of most recent photo captured to use in API call
+  3) Set up API call to use path of most recently captured photo
+  
+**Results:**
+  1) Set up Google Cloud Platform and installed the Cloud Client Library for the Vision API in my project.
+  2) Still haven't figured out the path of most recently saved photo--will review react-native-camera documentation
+  3) To set API call to use most recently captured photo, I'll have to use my actual phone for a development device.
