@@ -133,7 +133,7 @@ My biggest struggle to getting this to work was the syntax. I think I had a lot 
 After starting over, I installed the libraries first before adding any of my own code. I made sure to link them and run `yarn` again to get the node_modules up-to-date. Finally, it worked without a problem! So I added my code again (but created a separate Component folder) and added React Navigation as well. That easily solved my initial problem of only launching the Camera component `onPress`. Now, the button on the `<WelcomeScreen/>` component navigates to the `<CameraScreen/>` component.
 Finally, I added some new color to the app, which I like a lot.
 
-### R2D19 - 5/29/18
+### R2D19 - 5/30/18
 **Goals:** 
   1) Add Google Cloud Client Library for Vision API to project
   2) Figure out path of most recent photo captured to use in API call
