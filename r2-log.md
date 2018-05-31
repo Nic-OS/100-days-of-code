@@ -143,3 +143,7 @@ Finally, I added some new color to the app, which I like a lot.
   1) Set up Google Cloud Platform and installed the Cloud Client Library for the Vision API in my project.
   2) Still haven't figured out the path of most recently saved photo--will review react-native-camera documentation
   3) To set API call to use most recently captured photo, I'll have to use my actual phone for a development device.
+
+### R2D20 - 5/31/18
+**Goal:** Make API call when taking a picture using the photo path on disk.
+**Results:** I added the code for the API call, but I still need a physical device to take a picture of the business card. I can't use mine because it's a Pixel 2 and has USB-C. The code returned an error when I ran it in the emulator just for kicks, but I feel burned out now so I'll have to look at it tomorrow. I'm excited about the progress today, though.
