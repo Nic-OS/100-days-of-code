@@ -147,3 +147,12 @@ Finally, I added some new color to the app, which I like a lot.
 ### R2D20 - 5/31/18
 **Goal:** Make API call when taking a picture using the photo path on disk.
 **Results:** I added the code for the API call, but I still need a physical device to take a picture of the business card. I can't use mine because it's a Pixel 2 and has USB-C. The code returned an error when I ran it in the emulator just for kicks, but I feel burned out now so I'll have to look at it tomorrow. I'm excited about the progress today, though.
+
+### R2D21 - 6/3/18
+**Goals:**
+  1) Analyze captured photo in API call
+  2) Render results on `<ResultsScreen/>`
+  
+**Results:** 
+  1) There seems to be an issue with using the gcloud services for the vision API with React Native. I had to comment out my API call to get the app to run. I'll continue looking into this.
+  2) Although I couldn't render the results of the API call, I *was* able to `return` the path of the captured photo and log it to the console! That's exciting, because now I just need to figure out how to get the google API to play nice with React Native, then I'll be able to use the photo path in the API call.
