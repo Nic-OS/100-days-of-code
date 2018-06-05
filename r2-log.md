@@ -156,3 +156,7 @@ Finally, I added some new color to the app, which I like a lot.
 **Results:** 
   1) There seems to be an issue with using the gcloud services for the vision API with React Native. I had to comment out my API call to get the app to run. I'll continue looking into this.
   2) Although I couldn't render the results of the API call, I *was* able to `return` the path of the captured photo and log it to the console! That's exciting, because now I just need to figure out how to get the google API to play nice with React Native, then I'll be able to use the photo path in the API call.
+
+### R2D22 - 6/5/18
+**Goal:** Analyze a saved business card photo on the emulator and log the results.
+**Results:** 
