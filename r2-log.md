@@ -159,4 +159,12 @@ Finally, I added some new color to the app, which I like a lot.
 
 ### R2D22 - 6/5/18
 **Goal:** Analyze a saved business card photo on the emulator and log the results.
-**Results:** 
+**Results:** Didn't get it to work.
+
+### RD23 - 6/25/18
+**Goal:** Move project to Expo and get the app to run on my phone through the Expo mobile client, while accessing the camera through the Expo SDK. 
+**Result:** Success! I started using Expo and their Expo SDK--no more third-party library problems or dependency issues! I got the app to run, access the camera, and take a picture, but not display the results. Still working on that.
+
+### RD24 - 6/26/18
+**Goal:** Render JSON data after taking picture.
+**Result:**
