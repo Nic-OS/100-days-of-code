@@ -161,10 +161,14 @@ Finally, I added some new color to the app, which I like a lot.
 **Goal:** Analyze a saved business card photo on the emulator and log the results.
 **Results:** Didn't get it to work.
 
-### RD23 - 6/25/18
+### R2D23 - 6/25/18
 **Goal:** Move project to Expo and get the app to run on my phone through the Expo mobile client, while accessing the camera through the Expo SDK. 
 **Result:** Success! I started using Expo and their Expo SDK--no more third-party library problems or dependency issues! I got the app to run, access the camera, and take a picture, but not display the results. Still working on that.
 
-### RD24 - 6/26/18
+### R2D24 - 6/26/18
 **Goal:** Render JSON data after taking picture.
-**Result:**
+**Result:** Haven't figured out how to structure the functions needed to capture, analyze, then render the photo data.
+
+### R2D25 - 7/1/18
+**Goal:** Rewrite functions to capture, analyze, and render photo data from the `<Camera>` component.
+**Results:** I wasn't able to do it today. I feel like my lack of understanding some key JS concepts like Promises and async/await is really hindering me. It's hard to tell when to write a new function to handle a different action, when to link Promises, how to know when to use async/await, etc. At this point, I think I just have a lot of different bits of knowledge, but I lack a cohesive framework with which to understand everything. I have a lot more to learn about JS, that's for sure.
