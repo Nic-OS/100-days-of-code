@@ -146,6 +146,7 @@ Finally, I added some new color to the app, which I like a lot.
 
 ### R2D20 - 5/31/18
 **Goal:** Make API call when taking a picture using the photo path on disk.
+
 **Results:** I added the code for the API call, but I still need a physical device to take a picture of the business card. I can't use mine because it's a Pixel 2 and has USB-C. The code returned an error when I ran it in the emulator just for kicks, but I feel burned out now so I'll have to look at it tomorrow. I'm excited about the progress today, though.
 
 ### R2D21 - 6/3/18
@@ -159,16 +160,35 @@ Finally, I added some new color to the app, which I like a lot.
 
 ### R2D22 - 6/5/18
 **Goal:** Analyze a saved business card photo on the emulator and log the results.
+
 **Results:** Didn't get it to work.
 
 ### R2D23 - 6/25/18
 **Goal:** Move project to Expo and get the app to run on my phone through the Expo mobile client, while accessing the camera through the Expo SDK. 
+
 **Result:** Success! I started using Expo and their Expo SDK--no more third-party library problems or dependency issues! I got the app to run, access the camera, and take a picture, but not display the results. Still working on that.
 
 ### R2D24 - 6/26/18
 **Goal:** Render JSON data after taking picture.
+
 **Result:** Haven't figured out how to structure the functions needed to capture, analyze, then render the photo data.
 
 ### R2D25 - 7/1/18
 **Goal:** Rewrite functions to capture, analyze, and render photo data from the `<Camera>` component.
+
 **Results:** I wasn't able to do it today. I feel like my lack of understanding some key JS concepts like Promises and async/await is really hindering me. It's hard to tell when to write a new function to handle a different action, when to link Promises, how to know when to use async/await, etc. At this point, I think I just have a lot of different bits of knowledge, but I lack a cohesive framework with which to understand everything. I have a lot more to learn about JS, that's for sure.
+
+### R2D26 - 7/3/18
+**Goal:** Break apart each step of the app's function to see which part isn't working correctly.
+
+**Results:** Need to understand Promises better.
+
+### R2D27 - 7/4/18
+**Goal:** Break apart each step of the app's function to see which part isn't working correctly.
+
+**Results:** Read a lot about promises and chaining promises. Will look into Await/Async functions tomorrow.
+
+### R2D8 - 7/5/18
+**Goal:** Learn enough about promises and await/async to break my `takephoto()` function up into separate parts to test each.
+
+**Results:**
