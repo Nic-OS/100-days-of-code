@@ -191,4 +191,4 @@ Finally, I added some new color to the app, which I like a lot.
 ### R2D8 - 7/5/18
 **Goal:** Learn enough about promises and await/async to break my `takephoto()` function up into separate parts to test each.
 
-**Results:**
+**Results:** Very close to a breakthrough! I tested each part of the function by logging the results to the console with Expo XDE. At this point, it says the body init of my `fetch()` request is an unsupported format; I'll have to look into that more. But, I'm making progress!
