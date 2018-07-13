@@ -188,7 +188,21 @@ Finally, I added some new color to the app, which I like a lot.
 
 **Results:** Read a lot about promises and chaining promises. Will look into Await/Async functions tomorrow.
 
-### R2D8 - 7/5/18
+### R2D28 - 7/5/18
 **Goal:** Learn enough about promises and await/async to break my `takephoto()` function up into separate parts to test each.
 
 **Results:** Very close to a breakthrough! I tested each part of the function by logging the results to the console with Expo XDE. At this point, it says the body init of my `fetch()` request is an unsupported format; I'll have to look into that more. But, I'm making progress!
+
+### R2D29 - 7/10/18
+**Goal:** Successfully use the `fetch()` API to send a request to the Google Vision API, then log the results.
+
+**Results:** I was able to figure out the proper format of the request and test it using a simple function I called `fetchTest()`. Instead of sending a base64-encoded string from a recently captured photo, I just set a static url to a IMGUR hosted photo to simplify it. It worked and returned the business card info!
+
+### R2D30 - 7/12/18
+**Goal:** Now that I've gotten the `testFetch()` method to log the extracted text from a set photo URL, the next step is to analyze and render the results of a business card that's captured from the `<Camera>` component. 
+
+**Results:** I also got this to work! The code was almost exactly the same other than a slight change in the body of the POST request to the Google API, since I was sending a base64-encoded string instead of a photo URL. Now, the app has three screens: a welcome screen, a Camera screen, and a results screen. The welcome screen has a button that says, "scan new business card." That button launches the Camera component. After snapping a photo in the Camera component, it returns the photo data with a base64-encoded string. I pass that string into another function that uses the `fetch()` method and makes a POST request to the Google Vision API. 
+
+The JSON results are returned, at which point I return, from that, only the key text I need. I then pass *that* result as an argument to another function that navigates to the Results screen using it as a parameter (which is basically a prop for the Results screen). The Results screen renders and immediately calls a function that receives the parameter, stores it in a `const` and renders a `<View>` with the `const` value.
+
+It's ugly, but it works! At this point I'm just incredibly excited about that. I plan to use this weekend to make it prettier.
