@@ -206,3 +206,8 @@ Finally, I added some new color to the app, which I like a lot.
 The JSON results are returned, at which point I return, from that, only the key text I need. I then pass *that* result as an argument to another function that navigates to the Results screen using it as a parameter (which is basically a prop for the Results screen). The Results screen renders and immediately calls a function that receives the parameter, stores it in a `const` and renders a `<View>` with the `const` value.
 
 It's ugly, but it works! At this point I'm just incredibly excited about that. I plan to use this weekend to make it prettier.
+
+### R2D31-37 - 7/13-18/18
+**Goals:** Make the UI prettier.
+
+**Results:** I've changed a lot of things including the buttons, colors, way the business card results render, etc. Main focus is `<ResultsScreen>` component. I installed `react-native-elements` to use their `<Card>` and other components. It definitely makes designing the UI easier.
