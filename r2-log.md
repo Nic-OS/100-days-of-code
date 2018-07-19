@@ -211,3 +211,10 @@ It's ugly, but it works! At this point I'm just incredibly excited about that. I
 **Goals:** Make the UI prettier.
 
 **Results:** I've changed a lot of things including the buttons, colors, way the business card results render, etc. Main focus is `<ResultsScreen>` component. I installed `react-native-elements` to use their `<Card>` and other components. It definitely makes designing the UI easier.
+
+### R2D38 - 7/19/18
+**Goals:**
+  1. Dim the screen and show a "Scanning..." message after the user successfully takes a photo and the `fetch()` method is called.
+  2. Get the business card results to center properly on the `ResultsScreen`.
+  
+**Results:** I didn't get either to work yet, but I did find out that using the built-in `<Modal>` component may be what I need to dim the screen and display a "Scanning..." message. As for the card results displaying properly, I think it has to do with the way I have the `<View>`s set up. I have a main `<View>` in the render method, but the only child is a function that displays another `<View>` after the parameter value is received by the `CameraScreen`. There must be a way these two `<View>`s are conflicting.
