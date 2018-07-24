@@ -218,3 +218,10 @@ It's ugly, but it works! At this point I'm just incredibly excited about that. I
   2. Get the business card results to center properly on the `ResultsScreen`.
   
 **Results:** I didn't get either to work yet, but I did find out that using the built-in `<Modal>` component may be what I need to dim the screen and display a "Scanning..." message. As for the card results displaying properly, I think it has to do with the way I have the `<View>`s set up. I have a main `<View>` in the render method, but the only child is a function that displays another `<View>` after the parameter value is received by the `CameraScreen`. There must be a way these two `<View>`s are conflicting.
+
+### R2D39-42 - 7/20-23/18
+**Goals:** Complete basic UI and functionality. Get results to render properly.
+
+**Results:** I could not get the screen to dim yet, but I did add a "Scanning..." message after a photo is successfully captured. I also got the business card results to render properly on `<ResultsScreen>`. I just had to render most of the `<View>`s in the actual render method, and then only return `<Text>` when the params were received. Before, I had the whole view returned within a function when the component mounted, but that caused weird flex issues. 
+
+Now I'm planning to take a week break from Spindle, continue brushing up on my JS and completing some RN tutorials, then getting back to it next Wednesday on the 1st.
