@@ -225,3 +225,6 @@ It's ugly, but it works! At this point I'm just incredibly excited about that. I
 **Results:** I could not get the screen to dim yet, but I did add a "Scanning..." message after a photo is successfully captured. I also got the business card results to render properly on `<ResultsScreen>`. I just had to render most of the `<View>`s in the actual render method, and then only return `<Text>` when the params were received. Before, I had the whole view returned within a function when the component mounted, but that caused weird flex issues. 
 
 Now I'm planning to take a week break from Spindle, continue brushing up on my JS and completing some RN tutorials, then getting back to it next Wednesday on the 1st.
+
+### R2D43 - 7/24/18
+I'm taking a break from Spindle for a week to focus on just practicing my JS and RN skills via tutorials and courses. I finished the Object-Oriented Programming section in FCC and finished the first part of the todolist exercise on [React Native Express](www.reactnativeexpress.com). I'm actually pleasantly surprised by how quickly I can breeze through simple RN things. I think this week of practicing and learning will really help me.
