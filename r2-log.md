@@ -228,3 +228,8 @@ Now I'm planning to take a week break from Spindle, continue brushing up on my J
 
 ### R2D43 - 7/24/18
 I'm taking a break from Spindle for a week to focus on just practicing my JS and RN skills via tutorials and courses. I finished the Object-Oriented Programming section in FCC and finished the first part of the todolist exercise on [React Native Express](www.reactnativeexpress.com). I'm actually pleasantly surprised by how quickly I can breeze through simple RN things. I think this week of practicing and learning will really help me.
+
+### R2D44 - 7/27/18
+I began the Functional Programming section in FCC and added more to the Todolist exercise from ReactNativeExpress. I'm still a bit confused about callbacks, though. FCC said they were functions that were passed into other functions or returned as values from other functions. My first exposure to callbacks were when I was reading about Promises. It sounded like callbacks were functions that were called when another function's result was returned. I'm still wrapping my head around the flow of data from callbacks within callbacks.
+
+I'm loving completing the ReactNativeExpress exercises. I completed the Input and List components and will be adding action creators next.
