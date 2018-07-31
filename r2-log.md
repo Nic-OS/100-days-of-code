@@ -233,3 +233,6 @@ I'm taking a break from Spindle for a week to focus on just practicing my JS and
 I began the Functional Programming section in FCC and added more to the Todolist exercise from ReactNativeExpress. I'm still a bit confused about callbacks, though. FCC said they were functions that were passed into other functions or returned as values from other functions. My first exposure to callbacks were when I was reading about Promises. It sounded like callbacks were functions that were called when another function's result was returned. I'm still wrapping my head around the flow of data from callbacks within callbacks.
 
 I'm loving completing the ReactNativeExpress exercises. I completed the Input and List components and will be adding action creators next.
+
+### R2D45-47 - 7/29-31/18
+I've been working through the FCC exercises on Functional Programming in Javascript and really gaining a lot. A lot of the exercises are pretty much what I anticipate doing in the next phase of the app. I'll be doing a lot of storing/accessing/modifying objects in an array, which has been trickier than I expected. I'm really glad I'm going over these "basics" that I apparently didn't learn the first time lol...
