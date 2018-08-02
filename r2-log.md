@@ -235,4 +235,7 @@ I began the Functional Programming section in FCC and added more to the Todolist
 I'm loving completing the ReactNativeExpress exercises. I completed the Input and List components and will be adding action creators next.
 
 ### R2D45-47 - 7/29-31/18
-I've been working through the FCC exercises on Functional Programming in Javascript and really gaining a lot. A lot of the exercises are pretty much what I anticipate doing in the next phase of the app. I'll be doing a lot of storing/accessing/modifying objects in an array, which has been trickier than I expected. I'm really glad I'm going over these "basics" that I apparently didn't learn the first time lol...
+I've been working through the FCC exercises on Functional Programming in Javascript and really gaining a lot. A lot of the exercises are pretty much what I anticipate doing in the next phase of the app. I'll be doing a lot of storing/accessing/modifying objects in an array, which has been trickier than I expected. I'm really glad I'm going over these "basics" that I apparently didn't learn the first time...
+
+### R2D48-49 - 8/1-2/18
+Completed two lessons that required using `Array.prototype.map()` and `Array.prototype.filter()` in FCC. As I went through them, I thought about how I was going to apply the same thinking to managing contacts in my app. I also realized that I tend to overcomplicate things when coding. I usually default to the most complicated series of steps to get the result I need. After about two hours today, I realized I could solve the challenge by reducing my code to about two separate steps. I really want to continue practicing simple, logical thinking.
