@@ -239,3 +239,6 @@ I've been working through the FCC exercises on Functional Programming in Javascr
 
 ### R2D48-49 - 8/1-2/18
 Completed two lessons that required using `Array.prototype.map()` and `Array.prototype.filter()` in FCC. As I went through them, I thought about how I was going to apply the same thinking to managing contacts in my app. I also realized that I tend to overcomplicate things when coding. I usually default to the most complicated series of steps to get the result I need. After about two hours today, I realized I could solve the challenge by reducing my code to about two separate steps. I really want to continue practicing simple, logical thinking.
+
+### R2D50-56 - 8/3-9/18
+I've been starting every coding session with a few JS practice exercises in FCC, then working through the Fullstack React Native book by Fullstack.io. The RN book is an *incredible* resource. Things are clicking for me more so than for any other resource I've used in the past. I've reviewed all the RN basics, but I understand them so much more now. I'm really loving working through this book.
