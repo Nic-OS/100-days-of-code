@@ -242,3 +242,6 @@ Completed two lessons that required using `Array.prototype.map()` and `Array.pro
 
 ### R2D50-56 - 8/3-9/18
 I've been starting every coding session with a few JS practice exercises in FCC, then working through the Fullstack React Native book by Fullstack.io. The RN book is an *incredible* resource. Things are clicking for me more so than for any other resource I've used in the past. I've reviewed all the RN basics, but I understand them so much more now. I'm really loving working through this book.
+
+### R2D57-66 - 8/10-18/18
+I completed FCC's functional programming section and the first Weather app project in the Fullstack RN book. Excellent, excellent experience. I've started applying some of the tips to my Spindle app, particularly conditional rendering and api calls. I've also been doing a better job isolating components so they're truly standalone and reusable. I'm still weak on styling; I work slowly when it comes to flex and layout, but I've found that using Expo's snack resource is a great way to quickly check how different styling will affect appearance, which is awesome.
