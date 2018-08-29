@@ -245,3 +245,6 @@ I've been starting every coding session with a few JS practice exercises in FCC,
 
 ### R2D57-66 - 8/10-18/18
 I completed FCC's functional programming section and the first Weather app project in the Fullstack RN book. Excellent, excellent experience. I've started applying some of the tips to my Spindle app, particularly conditional rendering and api calls. I've also been doing a better job isolating components so they're truly standalone and reusable. I'm still weak on styling; I work slowly when it comes to flex and layout, but I've found that using Expo's snack resource is a great way to quickly check how different styling will affect appearance, which is awesome.
+
+### R2D67-77 - 8/19-29/18
+I've been doing crazy work on this app and it's so exciting that the more I learn, the faster the development process moves. I love being able to make significant changes to the app in a matter of days rather than weeks. I've added a button menu with the help of a friend, as well as configured the header bar to show two icons representing settings and filter. I've also been working on the Fullstack RN book's second project, which is a Timer app. I usually work on my project incrementally as I learn new tips and techniques from the book's examples. It's really fun right now. 
