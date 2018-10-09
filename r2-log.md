@@ -248,3 +248,6 @@ I completed FCC's functional programming section and the first Weather app proje
 
 ### R2D67-77 - 8/19-29/18
 I've been doing crazy work on this app and it's so exciting that the more I learn, the faster the development process moves. I love being able to make significant changes to the app in a matter of days rather than weeks. I've added a button menu with the help of a friend, as well as configured the header bar to show two icons representing settings and filter. I've also been working on the Fullstack RN book's second project, which is a Timer app. I usually work on my project incrementally as I learn new tips and techniques from the book's examples. It's really fun right now. 
+
+### R2D78-100 - 8/30/18 - 10/8/18
+I can't believe I finished my first 100 Days of Code challenge! The time went by so quickly and I hadn't updated my progress in this journal, so I didn't realize it. I've made tremendous progress on my Spindle app and am almost done hardcoding the complete app. After that, I'll make it stateful and dynamic, then add the design polish. I think I should a full product ready (version 1) in another week.
